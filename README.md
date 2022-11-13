@@ -1,25 +1,33 @@
+## Introduction
+
 This is a pdf merger project.
 
-It is made using `express` as a server, and `bootstrap` as CSS.
+It is made using `express` as the server, and `bootstrap` as CSS. The rest is vanilla JS.
 
-When you clone the project, make directories named `public` and `uploads`.
+## Getting Started
 
-After cloning the project, also run `npm install` followed by `npm init -y`.
+When you clone this project, make directories named `public` and `uploads` inside the pdf-merger directory.
 
-Installation of other programs used for this project:
+Run `npm install` followed by `npm init -y` to get the `node_modules` and `package.json`.
 
-For Express.js:
+## Other required programs
+
+**Express.js**:
 
 `npm i express`
 
-For multer:
+**Multer**:
 
 `npm i multer`
 
-For nodemon:
+**Nodemon**:
 
 `npm i -g nodemon`
 
-For pdf merger:
+**Node-Pdf-Merger**:
 
 `npm i pdf-merger-js`
+
+## To run the program
+
+Enter the command: `nodemon server.js` into your terminal.
